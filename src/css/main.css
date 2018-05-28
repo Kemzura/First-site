@@ -1,0 +1,196 @@
+.menus__right-menu__information {
+  display: block;
+  min-width: 650px;
+  height: 322px;
+  /*border: 1px solid black;*/
+  margin-bottom: 20px;
+  background: #eff3f7;
+}
+
+.menus__right-menu__expirience {
+  display: block;
+  min-width: 650px;
+  height: 230px;
+  /*border: 1px solid green;*/
+  margin-bottom: 20px;
+  background: #eff3f7;
+}
+
+.menus__right-menu__education {
+  display: block;
+  min-width: 650px;
+  height: 230px;
+  /*border: 1px solid purple;*/
+  background: #eff3f7;
+}
+
+.menus__right-menu__information__header-text {
+  font-size: 27px;
+  color: #3ba8c0;
+  padding: 20px;
+  border-bottom: 2px solid #3ba8c0;
+  width: 310px;
+}
+
+.menus__right-menu__information__main-block {
+  color: #4a545d;
+}
+
+.menus__right-menu__information__photo {
+  background-image: url("../img/1212.jpg");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  margin-top: 35px;
+  margin-left: 55px;
+  margin-bottom: -40px;
+  border: 5px solid #199cb5;
+  background-position: center center;
+  border-radius: 50%;
+  float: left;
+}
+
+.menus__right-menu__information__bio {
+  float: left;
+  width: 370px;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 27px;
+  /*border: 1px solid red;*/
+  margin-bottom: -40px;
+}
+
+.menus__right-menu__information__bio div {
+  padding: 5px;
+}
+
+.menus__right-menu__information__bio div span b {
+  font-size: 17px;
+}
+.menus__right-menu__information__container {
+  /*border: 5px solid yellow;*/
+  width: 635px;
+  clear: both;
+}
+
+.menus__right-menu__information__container-for-buttons {
+  clear: both;
+  width: 700px;
+  height: 30px;
+  /*border: 1px solid black;*/
+  float: left;
+}
+.menus__right-menu__information__container__buttons {
+  /*border: 1px solid black;*/
+  width: 300px;
+  float: right;
+}
+
+.menus__right-menu__information__container__buttons div {
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 14px;
+  background: linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
+  color: white;
+  margin: 8px;
+  border-radius: 5px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+.menus__right-menu__expirience__work__container {
+  min-width: 650px;
+  height: 156px;
+  /*border: 1px solid black;*/
+}
+
+.menus__right-menu__expirience__work__container__place {
+  min-width: 593px;
+  height: 50%;
+  border: 1px solid transparent;
+  margin-top: 25px;
+  margin-bottom: -20px;
+}
+
+.menus__right-menu__expirience__work__container__place__img {
+  float: left;
+  background-image: url("../img/work.png");
+  height: 34px;
+  width: 36px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 60px;
+  margin-right: 30px;
+}
+
+.menus__right-menu__expirience__work__container__place__text {
+  float: left;
+  color: #4a545d;
+}
+
+.menus__right-menu__expirience__work__container__place__text :nth-child(1) {
+  font-size: 17px;
+}
+
+.menus__right-menu__expirience__work__container__place__text :nth-child(2) {
+  font-size: 15px;
+}
+
+.menus__right-menu__expirience__work__container :nth-child(2) {
+  margin-top: 0;
+}
+
+/*----------------------------------------------*/
+
+.menus__right-menu__education__work__container {
+  min-width: 650px;
+  height: 156px;
+  /*border: 1px solid black;*/
+}
+
+.menus__right-menu__education__work__container__place {
+  min-width: 593px;
+  height: 50%;
+  border: 1px solid transparent;
+  margin-top: 25px;
+  margin-bottom: -20px;
+}
+
+.menus__right-menu__education__work__container__place__img1 {
+  float: left;
+  background-image: url("../img/study.png");
+  height: 23px;
+  width: 41px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 60px;
+  margin-right: 30px;
+}
+
+.menus__right-menu__education__work__container__place__img2 {
+  float: left;
+  background-image: url("../img/course.png");
+  height: 32px;
+  width: 26px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 73px;
+  margin-right: 30px;
+}
+
+.menus__right-menu__education__work__container__place__text {
+  float: left;
+  color: #4a545d;
+}
+
+.menus__right-menu__education__work__container__place__text :nth-child(1) {
+  font-size: 17px;
+}
+
+.menus__right-menu__education__work__container__place__text :nth-child(2) {
+  font-size: 15px;
+}
+
+.menus__right-menu__education__work__container :nth-child(2) {
+  margin-top: 0;
+}

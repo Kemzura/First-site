@@ -1,0 +1,50 @@
+doctype html
+include ../common/head.pug
+.blackened
+.wrapper
+  .container
+    include ../common/header.pug
+    .menus
+      include ../common/new-project.pug
+      include ../common/left-menu.pug
+      .menus__right-menu
+        .menus__right-menu__information__header-text Мои работы
+        .menus__right-menu__main
+          div
+            .menus__right-menu__main__site1
+              .menus__right-menu__main__opacity
+                .menus__right-menu__main__opacity__text название
+            div
+              a(href='#site ') www.site.ru
+            p Информация о проекте
+            p 1 1 превью 2 строки....
+          div
+            .menus__right-menu__main__site2
+              .menus__right-menu__main__opacity
+                .menus__right-menu__main__opacity__text название
+            div
+              a(href='#site ') www.site.ru
+            p Информация о проекте
+            p 2 превью 2 строки....
+          div
+            .menus__right-menu__main__site3
+              .menus__right-menu__main__opacity
+                .menus__right-menu__main__opacity__text название
+            div
+              a(href='#site ') www.site.ru
+            p Информация о проекте
+            p 3 превью 2 строки....
+          #copyDiv
+            .menus__right-menu__main__site4
+              .menus__right-menu__main__opacity
+                .menus__right-menu__main__opacity__text
+                  span#nameSpan название
+            div
+              a(href='#site ') www.site.ru
+            p Информация о проекте
+            p 4 превью 2 строки....
+          div
+            .menus__right-menu__main__add
+              #addNewProject.menus__right-menu__main__opacity
+              span.menus__right-menu__main__add__text Добавить проект
+  include ../common/footer.pug

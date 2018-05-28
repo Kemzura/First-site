@@ -1,0 +1,22 @@
+#addnew.addnew
+        .addnew__header
+          .addnew__header__text Добавление проекта
+          #close.addnew__header__close
+        .addnew__menus
+          .addnew__menus__name
+            .addnew__menus__text.topdiv Название проекта
+            input#name.addnew__menus__input(placeholder='Введите название' value='')
+          .addnew__menus__addpicture
+            .addnew__menus__text Картинка проекта
+            input.addnew__menus__input.input_upload(placeholder='Загрузите изображение')
+            .file_upload
+              label
+                input#image.addnew__menus__addpicture__upload(type='file')
+          .addnew__menus__url
+            .addnew__menus__text URL проекта
+            input#url.addnew__menus__input(placeholder='Добавьте ссылку ')
+          .addnew__menus__description
+            .addnew__menus__text Описание
+            textarea#description.addnew__menus__description__textarea(placeholder='Пара слов о Вашем проекте ')
+          .addnew__menus__button
+            button#add Добавить

@@ -1,0 +1,33 @@
+doctype html
+include ../common/head.pug
+html
+.wrapper
+  .container
+    include ../common/header.pug
+    .menus
+      include ../common/left-menu.pug
+      .menus__right-menu
+        .menus__right-menu__header
+          .menus__right-menu__header__text У вас интересный проект? Напишите мне
+        .menus__right-menu__forms
+          .menus__right-menu__forms__container
+            .menus__right-menu__forms__container__top
+              .menus__right-menu__forms__container__top__text-name.component-top
+                p Имя
+              .menus__right-menu__forms__container__top__text-email.component-top
+                p Email
+            .menus__right-menu__forms__container__name-email
+              input.menus__right-menu__forms__container__name-email__name.component(placeholder='Как к Вам обращаться')
+              input.menus__right-menu__forms__container__name-email__email.component(placeholder='Куда мне писать')
+            .menus__right-menu__forms__container__middle.component-top.component-middle
+              p Сообщение
+            textarea.menus__right-menu__forms__container__middle__form(placeholder='Кратко в чем суть')
+            .menus__right-menu__forms__container__middle.component-top.component-middle
+              p Введите код, указанный на картинке
+            .menus__right-menu__forms__container__captcha
+              .menus__right-menu__forms__container__captcha__image
+              input.menus__right-menu__forms__container__captcha__input(placeholder='Введите код')
+            .menus__right-menu__forms__container__buttons
+              button Отправить
+              button Очистить
+  include ../common/footer.pug

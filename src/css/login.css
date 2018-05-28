@@ -1,0 +1,115 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.loginContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.autorization {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.autorization__header {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #48cbe8;
+}
+
+.autorization__header__text {
+  color: white;
+  font-size: 40px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.autorization__header__gradient {
+  height: 15px;
+  background-color: #67dffa;
+}
+
+.autorization__ipnut {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #eff3f7;
+  align-items: center;
+}
+.nullInput {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  padding: 0 15px;
+  background: #f97e76;
+}
+
+.nullLogin {
+  display: none;
+  top: 100px;
+  left: -65px;
+}
+
+.nullPassword {
+  display: none;
+  top: 245px;
+  left: -75px;
+}
+
+.nullInput > div {
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 15px;
+}
+
+.autorization__input__text {
+  margin-top: 20px;
+  font-size: 36px;
+  font-family: "Fira Sans", sans-serif;
+  color: #959aa8;
+  font-weight: 100;
+}
+
+.autorization__ipnut__field {
+  height: 60px;
+  border: 2px solid #48cbe8;
+  border-radius: 5px;
+  padding: 0px 10px;
+  width: 420px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+input::-webkit-input-placeholder {
+  color: #48cbe8;
+  font-size: 17px;
+  vertical-align: top;
+}
+
+button {
+  margin-top: 30px;
+  width: 225px;
+  height: 50px;
+  background: #48cbe8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  border-bottom: 3px solid #3ba8c0;
+  font-size: 36px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+button:hover {
+  background: #849db5;
+  cursor: pointer;
+}

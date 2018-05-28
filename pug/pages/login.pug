@@ -1,0 +1,19 @@
+doctype html
+include ../common/head.pug
+#wrapper.wrapper
+  #loginContainer.loginContainer
+    .autorization
+      .autorization__header
+        .autorization__header__text Авторизируйтесь
+      .autorization__header__gradient
+      .autorization__ipnut
+        .autorization__input__text Логин
+        .nullInput.nullLogin
+          div введите логин
+        input#login.autorization__ipnut__field(placeholder='Введите логин')
+        .autorization__input__text Пароль
+        .nullInput.nullPassword
+          div введите пароль
+        input#password.autorization__ipnut__field(placeholder='Введите пароль')
+        button#enter Войти
+  include ../common/footer.pug

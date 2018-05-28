@@ -1,0 +1,71 @@
+doctype html
+include ../common/head.pug
+html
+
+#wrapper.wrapper
+  #loginContainer.loginContainer
+  #container.container
+    include ../common/header.pug
+    .menus
+      include ../common/left-menu.pug
+      .menus__right-menu
+        .menus__right-menu__information
+          .menus__right-menu__information__header-text Основная информация
+          .menus__right-menu__information__container
+            .menus__right-menu__information__main-block
+              .menus__right-menu__information__photo
+              .menus__right-menu__information__bio
+                div
+                  span
+                    b Меня зовут:&nbsp&nbsp
+                  span Иванов Андрей Степанович
+                div
+                  span
+                    b Мой возраст:&nbsp&nbsp
+                  span 25 лет
+                div
+                  span
+                    b Мой город:&nbsp&nbsp
+                  span Санкт-Петербург, Россия
+                div
+                  span
+                    b Моя специализация:&nbsp&nbsp
+                  span FRONTEND разработчик
+                div
+                  span
+                    b Ключевые навыки:&nbsp&nbsp
+              .menus__right-menu__information__container-for-buttons
+                .menus__right-menu__information__container__buttons
+                  each item in skills
+                    div= item
+        .menus__right-menu__expirience
+          .menus__right-menu__information__header-text Опыт работы
+          .menus__right-menu__expirience__work__container
+            .menus__right-menu__expirience__work__container__place
+              .menus__right-menu__expirience__work__container__place__img
+              .menus__right-menu__expirience__work__container__place__text
+                div
+                  b "ИП Боровицкий" - Продавец дисков
+                div Сентябрь 2005 - Август 2008
+            .menus__right-menu__expirience__work__container__place
+              .menus__right-menu__expirience__work__container__place__img
+              .menus__right-menu__expirience__work__container__place__text
+                div
+                  b "ООО Системы безопасности" - Системный администратор
+                div Июнь 2008 - Июль 2010
+        .menus__right-menu__education
+          .menus__right-menu__information__header-text Образование
+          .menus__right-menu__education__work__container
+            .menus__right-menu__education__work__container__place
+              .menus__right-menu__education__work__container__place__img1
+              .menus__right-menu__education__work__container__place__text
+                div
+                  b Незаконченное высшее. СПБГУ ИТМО
+                div Октябрь 2012 - по настоящее время
+            .menus__right-menu__education__work__container__place
+              .menus__right-menu__education__work__container__place__img2
+              .menus__right-menu__education__work__container__place__text
+                div
+                  b Курсы Loftschool.ru
+                div Ноябрь 2014 - по настоящее время
+  include ../common/footer.pug
