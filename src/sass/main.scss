@@ -1,0 +1,177 @@
+.menus__right-menu__information {
+  display: block;
+  min-width: 650px;
+  height: 322px;
+  margin-bottom: 20px;
+  background: #eff3f7;
+}
+
+.menus__right-menu__expirience {
+  display: block;
+  min-width: 650px;
+  height: 230px;
+  margin-bottom: 20px;
+  background: #eff3f7;
+}
+
+.menus__right-menu__education {
+  display: block;
+  min-width: 650px;
+  height: 230px;
+  background: #eff3f7;
+}
+
+.menus__right-menu__information__header-text {
+  font-size: 27px;
+  color: #3ba8c0;
+  padding: 20px;
+  border-bottom: 2px solid #3ba8c0;
+  width: 310px;
+}
+
+.menus__right-menu__information__main-block {
+  color: #4a545d;
+}
+
+.menus__right-menu__information__photo {
+  background: {
+    image: url("../img/1212.jpg");
+    size: cover;
+    position: center center;
+  }
+  width: 150px;
+  height: 150px;
+  margin: 35px 0 -40px 55px;
+  border: 5px solid #199cb5;
+  border-radius: 50%;
+  float: left;
+}
+
+.menus__right-menu__information__bio {
+  float: left;
+  width: 370px;
+  font-size: 15px;
+  margin: 27px 0 -40px 20px;
+  div {
+    padding: 5px;
+    span {
+      b {
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+.menus__right-menu__information__container {
+  width: 635px;
+  clear: both;
+}
+
+.menus__right-menu__information__container-for-buttons {
+  clear: both;
+  width: 700px;
+  height: 30px;
+  float: left;
+}
+
+.menus__right-menu__information__container__buttons {
+  width: 300px;
+  float: right;
+  div {
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 14px;
+    background: linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
+    color: white;
+    margin: 8px;
+    border-radius: 5px;
+  }
+}
+
+.menus__right-menu__expirience__work__container {
+  min-width: 650px;
+  height: 156px;
+  :nth-child(2) {
+    margin-top: 0;
+  }
+}
+
+.menus__right-menu__expirience__work__container__place {
+  min-width: 593px;
+  height: 50%;
+  border: 1px solid transparent;
+  margin: 25px 0 -20px;
+}
+
+.menus__right-menu__expirience__work__container__place__img {
+  background: {
+    image: url("../img/work.png");
+    position: center center;
+    repeat: no-repeat;
+  }
+  margin: 0 30px 0 60px;
+  float: left;
+  height: 34px;
+  width: 36px;
+}
+
+.menus__right-menu__expirience__work__container__place__text {
+  float: left;
+  color: #4a545d;
+  :nth-child(1) {
+    font-size: 17px;
+  }
+  :nth-child(2) {
+    font-size: 15px;
+  }
+}
+
+.menus__right-menu__education__work__container {
+  min-width: 650px;
+  height: 156px;
+  :nth-child(2) {
+    margin-top: 0;
+  }
+}
+
+.menus__right-menu__education__work__container__place {
+  min-width: 593px;
+  height: 50%;
+  border: 1px solid transparent;
+  margin: 25px 0 -20px 0;
+}
+
+.menus__right-menu__education__work__container__place__img1 {
+  background: {
+    image: url("../img/study.png");
+    position: center center;
+    repeat: no-repeat;
+  }
+  float: left;
+  height: 23px;
+  width: 41px;
+  margin: 0 30px 0 60px;
+}
+
+.menus__right-menu__education__work__container__place__img2 {
+  background: {
+    image: url("../img/course.png");
+    position: center center;
+    repeat: no-repeat;
+  }
+  float: left;
+  height: 32px;
+  width: 26px;
+  margin: 0 30px 0 73px;
+}
+
+.menus__right-menu__education__work__container__place__text {
+  float: left;
+  color: #4a545d;
+  :nth-child(1) {
+    font-size: 17px;
+  }
+  :nth-child(2) {
+    font-size: 15px;
+  }
+}

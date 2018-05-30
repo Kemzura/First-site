@@ -1,0 +1,142 @@
+.menus__right-menu {
+  flex-direction: column;
+  display: flex;
+}
+
+.menus__right-menu__header {
+  height: 140px;
+  background: linear-gradient(#48cbe8 85%, #67dffa 15%);
+}
+
+.menus__right-menu__header__text {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 120px;
+  color: white;
+  font-size: 27px;
+}
+
+.menus__right-menu__forms {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  align-items: center;
+  width: 100%;
+  min-height: 700px;
+}
+
+.menus__right-menu__forms__container {
+  display: flex;
+  flex-direction: column;
+  width: 62%;
+  text-align: center;
+  flex: 1 0 auto;
+}
+
+.menus__right-menu__forms__container__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.component-top {
+  display: flex;
+  height: 67px;
+  width: 47%;
+  align-items: flex-end;
+  padding: 0;
+  p {
+    color: #959aa8;
+    display: inline;
+  }
+}
+
+.menus__right-menu__forms__container__name-email {
+  display: flex;
+  justify-content: space-between;
+  color: #48cbe8;
+  border-radius: 5px;
+}
+
+.component {
+  width: 43%;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #48cbe8;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+input::-webkit-input-placeholder {
+  color: #48cbe8;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.component-middle {
+  height: 40px;
+  width: 100%;
+}
+
+.menus__right-menu__forms__container__middle__form {
+  height: 160px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: 1px solid #48cbe8;
+  resize: none;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #48cbe8;
+  font: {
+    size: 15px;
+    family: "Fira Sans", sans-serif;
+  }
+}
+
+.menus__right-menu__forms__container__captcha {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.menus__right-menu__forms__container__captcha__image {
+  width: 45%;
+  height: 100%;
+  float: left;
+  border: 1px solid #48cbe8;
+  border-radius: 5px;
+}
+
+.menus__right-menu__forms__container__captcha__input {
+  float: right;
+  border: 1px solid #48cbe8;
+  width: 43%;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.menus__right-menu__forms__container__buttons {
+  height: 30px;
+  :nth-child(1) {
+    float: left;
+  }
+  :nth-child(2) {
+    float: right;
+  }
+  button {
+    font-size: 15px;
+    width: 25%;
+    height: 30px;
+    background: #48cbe8;
+    border: {
+      bottom: 2px solid #3ba8c0;
+      left: 1px solid #3ba8c0;
+      right: 1px solid #3ba8c0;
+      radius: 5px;
+    }
+    color: white;
+    &:hover {
+      background: #849db5;
+    }
+  }
+}
